@@ -3,6 +3,9 @@
   <remote  name="poky"
            fetch="git://git.yoctoproject.org" />
 
+  <remote  name="digilent"
+           fetch="https://github.com/Digilent" />
+
   <remote  name="meta-oe"
            fetch="git://git.openembedded.org" />
 
@@ -16,7 +19,7 @@
   <!-- Default layers -->
   <project name="poky" remote="poky" path="poky"/>
   <project name="meta-openembedded" remote="meta-oe" path="meta-openembedded"/>
-  <project name="Digilent/meta-xilinx" remote="github" path="meta-xilinx"/>
-  <project name="Digilent/ZYBO" remote="github" path="ZYBO" revision="master"/>
+  <project name="meta-xilinx" remote="digilent" path="meta-xilinx"/>
+  <project name="ZYBO" remote="digilent" path="ZYBO" revision="master"/>
 
 </manifest>
