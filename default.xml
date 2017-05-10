@@ -25,5 +25,6 @@
   <project name="meta-xilinx" remote="digilent" path="meta-xilinx"/>
   <project name="ZYBO" remote="digilent" path="ZYBO" revision="master"/>
   <project name="meta-manifest" remote="myeng" path="meta-manifest" revision="jethro"/>
+  <project name="meta-myeng" remote="myeng" path="meta-myeng" revision="master"/>
 
 </manifest>
